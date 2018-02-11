@@ -7,11 +7,13 @@ class CompetitionService {
     axios.get('/static/competitions.json')
       .then((response) => {
         this.competitions = response.data;
+        this.cleanDates();
       });
   }
 
   getUpcomingCompetitions(count) {
-    let upcomingComps = this.competitions.filter(comp => comp.date > '2018-02-10');
+    let today = moment();
+    let upcomingComps = this.competitions.filter(comp => comp.endDate.isAfter(today));
     if (count) {
       return upcomingComps.slice(0,count);
     }
@@ -20,6 +22,15 @@ class CompetitionService {
     }
   }
 
+  cleanDates() {
+    console.log('Starting date clean');
+    for (let iComp = 0; iComp < this.competitions.length; iComp++) {
+      this.competitions[iComp].date = moment(this.competitions[iComp].date, "YYYY-MM-DD");
+      this.competitions[iComp].endDate = moment(this.competitions[iComp].endDate, "YYYY-MM-DD");
+    }
+    console.log('Finished date clean');
+    console.log(this.competitions);
+  }
 }
 
 export default new CompetitionService();

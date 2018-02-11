@@ -16,7 +16,10 @@
         <div class="competition-card-content">
 
           {{comp.cityName}}, <strong>{{comp.country}}</strong><br/>
-          {{comp.date}} <span v-if="comp.date !== comp.endDate">to {{comp.date}}</span><br/>
+          {{comp.date.format('ddd, D MMMM')}}
+          <span v-if="comp.date !== comp.endDate">
+            to {{comp.endDate.format('ddd, D MMMM')}}
+          </span> {{comp.date.format('YYYY')}}<br/>
 
           <ul>
             <li v-for="winner in comp.winners">
