@@ -2,6 +2,25 @@
 
 > Website for African Cubing Association
 
+## Generate Static Files
+
+Data is read from static JSON files. In order to generate these JSON files, you will need access to a MySQL database with up-to-date results. This database can be created using the latest WCA SQL export, which can be downloaded from [here](https://www.worldcubeassociation.org/results/misc/export.html).
+
+Once you have MySQL database running with the WCA database export, you can generate the JSON files using the provided Python scripts:
+
+* `fetchCompetitionData.py` generates `/static/competitions.json`
+* `fetchCountryData.py` generates `/static/countrynames.json`
+
+You may need to edit the connection details by editing the mysqlConnectionDetails variable with your own connection settings
+``` python
+mysqlConnectionDetails = {
+    'host': "localhost",
+    'user': "root",
+    'passwd': "root",
+    'db': "mysql"
+}
+```
+
 ## Build Setup
 
 ``` bash
