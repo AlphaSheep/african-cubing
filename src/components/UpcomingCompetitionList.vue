@@ -5,9 +5,13 @@
         <h3>{{comp.name}}</h3>
         <div class="competition-card-content">
 
+          <div class="icon-wrapper"><font-awesome-icon :icon="['fas', 'map-marker-alt']" /></div>
           {{comp.cityName}}, <strong>{{comp.country}}</strong><br/>
+
+          <div class="icon-wrapper"><font-awesome-icon :icon="['fa', 'calendar-alt']" /></div>
+
           {{comp.date.format('ddd, D MMMM')}}
-          <span v-if="comp.date !== comp.endDate">
+          <span v-if="comp.endDate.isAfter(comp.date)">
             to {{comp.endDate.format('ddd, D MMMM')}}
           </span> {{comp.date.format('YYYY')}}<br/>
 
@@ -42,10 +46,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-  h1 {
-    font-weight: normal;
-  }
-
   .competition-card {
     border: 1px solid #284;
     border-radius: 5px;
@@ -69,5 +69,15 @@ export default {
     font-size: 90%;
     text-align: left;
     line-height: 1.6em;
+  }
+
+  .icon-wrapper {
+    display: inline-block;
+    width: 2em;
+    padding: 0.5em;
+    margin-left: -10px;
+    border-right: solid 1px #333;
+    text-align: center;
+    color: #4f8;
   }
 </style>
