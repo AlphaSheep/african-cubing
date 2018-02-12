@@ -1,5 +1,5 @@
 <template>
-  <div class="upcoming-competition-list">
+  <div class="recent-competition-list">
 
       <div v-for="comp in competitions" class="competition-card">
         <h3>{{comp.name}}</h3>
@@ -15,6 +15,14 @@
             to {{comp.endDate.format('ddd, D MMMM')}}
           </span> {{comp.date.format('YYYY')}}<br/>
 
+          <div class="winner-box">
+            <ul>
+              <li v-for="winner in comp.winners">
+                {{winner.pos}}. {{winner.personName}} ({{winner.average/100}})
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
 
@@ -23,16 +31,16 @@
 
 <script>
 export default {
-  name: 'UpcomingCompetitionList',
+  name: 'RecentCompetitionList',
   data () {
     return {
-      title: 'UpcomingCompetitionList',
+      title: 'RecentCompetitionList',
       CompetitionService: this.CompetitionService
     }
   },
   computed: {
     competitions: function () {
-      return this.CompetitionService.getUpcomingCompetitions(10);
+      return this.CompetitionService.getRecentCompetitions(5);
     }
   }
 }
@@ -74,5 +82,9 @@ export default {
     border-right: solid 1px #333;
     text-align: center;
     color: #4f8;
+  }
+
+  .winner-box {
+    /*float: right;*/
   }
 </style>

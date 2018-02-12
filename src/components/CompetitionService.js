@@ -22,6 +22,17 @@ class CompetitionService {
     }
   }
 
+  getRecentCompetitions(count) {
+    let today = moment();
+    let upcomingComps = this.competitions.filter(comp => !comp.endDate.isAfter(today));
+    if (count) {
+      return upcomingComps.slice(0,count);
+    }
+    else {
+      return upcomingComps;
+    }
+  }
+
   cleanDates() {
     console.log('Starting date clean');
     for (let iComp = 0; iComp < this.competitions.length; iComp++) {

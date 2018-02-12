@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import Main from '@/components/Main'
 import About from '@/components/About'
+import Competitions from '@/components/Competitions'
 
 Vue.use(Router)
 
@@ -19,13 +20,13 @@ export default new Router({
       component: About
     },
     {
-      path: '/',
+      path: '/competitions',
       name: 'Competitions',
-      component: Main
+      component: Competitions
     },
     {
-      path: '/about',
-      name: 'Results',
+      path: '/records',
+      name: 'Records',
       component: About
     }
   ]
