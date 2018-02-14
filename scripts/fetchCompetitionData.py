@@ -4,8 +4,8 @@ import json
 import mysql.connector
 from datetime import datetime
 
-# continentId = "_Europe" # Much larger data set, useful for testing large number of cases
-continentId = "_Africa"
+continentId = "_Europe" # Much larger data set, useful for testing large number of cases
+# continentId = "_Africa"
 
 mysqlConnectionDetails = {
     'host': "Alpha-Titan",
