@@ -16,11 +16,16 @@
           </span> {{comp.date.format('YYYY')}}<br/>
 
           <div class="winner-box">
-            <ul>
-              <li v-for="winner in comp.winners">
-                {{winner.pos}}. {{winner.personName}} ({{winner.average/100}})
-              </li>
-            </ul>
+            <div v-if="comp.winners.length === 0">
+              Results not yet available
+            </div>
+            <div v-if="comp.winners.length > 0">
+              <ul>
+                <li v-for="winner in comp.winners">
+                  {{winner.pos}}. {{winner.personName}} ({{winner.average/100}})
+                </li>
+              </ul>
+            </div>
           </div>
 
         </div>
