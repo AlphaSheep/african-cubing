@@ -2,8 +2,9 @@ deploy.sh
 
 node_modules
 build
+dist
+.DS_Store
 *.log
 *~
 
-static/*.json
-
+public/data/*.tmp

@@ -1,49 +1,46 @@
-# african-cubing
+# African Cubing
 
-> Website for African Cubing Association
+A small, front-end-only guide to World Cube Association competitions in Africa. The home page combines an interactive SVG map with filterable upcoming and past competition lists, and ships in English, French, Arabic, Portuguese, and Swahili.
 
-## Generate Static Files
+## Local development
 
-Data is read from static JSON files. In order to generate these JSON files, you will need access to a MySQL database with up-to-date results. This database can be created using the latest WCA SQL export, which can be downloaded from [here](https://www.worldcubeassociation.org/results/misc/export.html).
+The project uses Node 24, declared in [`.nvmrc`](.nvmrc).
 
-Once you have MySQL database running with the WCA database export, you can generate the JSON files using the provided Python scripts:
-
-* `fetchCompetitionData.py` generates `/static/competitions.json`
-* `fetchCountryData.py` generates `/static/countrynames.json`
-
-You may need to edit the connection details by editing the mysqlConnectionDetails variable with your own connection settings
-``` python
-mysqlConnectionDetails = {
-    'host': "localhost",
-    'user': "root",
-    'passwd': "root",
-    'db': "mysql"
-}
-```
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
+```sh
+nvm use
+npm ci
+npm run data
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Other useful commands:
+
+```sh
+npm run check   # lint and type-check
+npm run build   # production build in dist/
+npm run preview # preview the production build
+```
+
+## Competition data
+
+[`scripts/generate-data.mjs`](scripts/generate-data.mjs) fetches the compact competition index from the official WCA API using its Africa continent filter. It follows pagination, validates the response, and writes a small static snapshot to [`public/data/africa.json`](public/data/africa.json).
+
+The browser only downloads that snapshot. It does not need API credentials, a database, a server-side process, or dozens of country requests.
+
+Country names use the browser's localized Unicode display names, with centralized overrides in [`format.ts`](src/lib/format.ts) where WCA-standardized names need to remain unambiguous and consistent across browsers.
+
+## Deployment
+
+[`pages.yml`](.github/workflows/pages.yml) builds and deploys the site to GitHub Pages:
+
+- on every push to `master`;
+- daily at 03:17 UTC to refresh WCA data;
+- manually through **Actions → Build and deploy GitHub Pages → Run workflow**.
+
+In the repository settings, set **Pages → Source** to **GitHub Actions**. A custom domain can then be attached in the same Pages settings without changing Vite's relative asset paths.
+
+GitHub can disable scheduled workflows after a long period without repository activity. The manual trigger remains available if the freshness date on the site stops advancing.
+
+## Map
+
+The geometry in [`africa-map.svg`](src/assets/africa-map.svg) was extracted from the original Vue prototype and made keyboard-interactive by the React map component. The original remains available in Git history; the live app does not compile or ship Vue code.

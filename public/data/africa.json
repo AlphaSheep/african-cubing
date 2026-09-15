@@ -1,0 +1,2366 @@
+{
+  "generatedAt": "2026-09-11T06:42:11.766Z",
+  "source": "https://www.worldcubeassociation.org/api/v0/competition_index",
+  "totalCompetitions": 250,
+  "countries": [
+    {
+      "code": "AO",
+      "competitionCount": 9,
+      "upcomingCount": 0
+    },
+    {
+      "code": "BW",
+      "competitionCount": 1,
+      "upcomingCount": 1
+    },
+    {
+      "code": "CI",
+      "competitionCount": 2,
+      "upcomingCount": 0
+    },
+    {
+      "code": "CV",
+      "competitionCount": 1,
+      "upcomingCount": 0
+    },
+    {
+      "code": "DZ",
+      "competitionCount": 10,
+      "upcomingCount": 0
+    },
+    {
+      "code": "EG",
+      "competitionCount": 10,
+      "upcomingCount": 0
+    },
+    {
+      "code": "GH",
+      "competitionCount": 3,
+      "upcomingCount": 0
+    },
+    {
+      "code": "KE",
+      "competitionCount": 27,
+      "upcomingCount": 0
+    },
+    {
+      "code": "LS",
+      "competitionCount": 1,
+      "upcomingCount": 1
+    },
+    {
+      "code": "MA",
+      "competitionCount": 15,
+      "upcomingCount": 1
+    },
+    {
+      "code": "MG",
+      "competitionCount": 5,
+      "upcomingCount": 0
+    },
+    {
+      "code": "MU",
+      "competitionCount": 6,
+      "upcomingCount": 0
+    },
+    {
+      "code": "MZ",
+      "competitionCount": 1,
+      "upcomingCount": 1
+    },
+    {
+      "code": "NA",
+      "competitionCount": 1,
+      "upcomingCount": 1
+    },
+    {
+      "code": "NG",
+      "competitionCount": 8,
+      "upcomingCount": 0
+    },
+    {
+      "code": "SZ",
+      "competitionCount": 1,
+      "upcomingCount": 1
+    },
+    {
+      "code": "TN",
+      "competitionCount": 24,
+      "upcomingCount": 0
+    },
+    {
+      "code": "UG",
+      "competitionCount": 1,
+      "upcomingCount": 0
+    },
+    {
+      "code": "XF",
+      "competitionCount": 1,
+      "upcomingCount": 0
+    },
+    {
+      "code": "ZA",
+      "competitionCount": 121,
+      "upcomingCount": 3
+    },
+    {
+      "code": "ZM",
+      "competitionCount": 2,
+      "upcomingCount": 0
+    }
+  ],
+  "upcomingCompetitions": [
+    {
+      "id": "WCAAfricanChampionship2026",
+      "name": "GAN WCA African Championship 2026",
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-27",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/WCAAfricanChampionship2026"
+    },
+    {
+      "id": "SedgefieldChallenge2026",
+      "name": "Sedgefield Coastal Challenge 2026",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "city": "Sedgefield",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/SedgefieldChallenge2026"
+    },
+    {
+      "id": "CubestuffCenturionQ42026",
+      "name": "Cubestuff Challenge Centurion Q4 2026",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "city": "Centurion",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffCenturionQ42026"
+    },
+    {
+      "id": "NamibiaNationals2026",
+      "name": "Namibia Nationals 2026",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
+      "city": "Windhoek",
+      "countryCode": "NA",
+      "url": "https://www.worldcubeassociation.org/competitions/NamibiaNationals2026"
+    },
+    {
+      "id": "MozambiqueNationals2026",
+      "name": "Mozambique Nationals 2026",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "city": "Maputo",
+      "countryCode": "MZ",
+      "url": "https://www.worldcubeassociation.org/competitions/MozambiqueNationals2026"
+    },
+    {
+      "id": "LesothoNationals2026",
+      "name": "Lesotho Nationals 2026",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-11",
+      "city": "Maseru",
+      "countryCode": "LS",
+      "url": "https://www.worldcubeassociation.org/competitions/LesothoNationals2026"
+    },
+    {
+      "id": "EswatiniNationals2026",
+      "name": "Eswatini Nationals 2026",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
+      "city": "Manzini",
+      "countryCode": "SZ",
+      "url": "https://www.worldcubeassociation.org/competitions/EswatiniNationals2026"
+    },
+    {
+      "id": "BotswanaNationals2026",
+      "name": "Botswana Nationals 2026",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-18",
+      "city": "Gaborone",
+      "countryCode": "BW",
+      "url": "https://www.worldcubeassociation.org/competitions/BotswanaNationals2026"
+    },
+    {
+      "id": "MoroccoChampionship2026",
+      "name": "Morocco Championship 2026",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-28",
+      "city": "Rabat",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/MoroccoChampionship2026"
+    }
+  ],
+  "pastCompetitions": [
+    {
+      "id": "KirstenhofEarlySpring2026",
+      "name": "Kirstenhof Early Spring 2026",
+      "startDate": "2026-09-06",
+      "endDate": "2026-09-06",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/KirstenhofEarlySpring2026"
+    },
+    {
+      "id": "WCAAfricanFMCChampionship2026",
+      "name": "WCA African FMC Championship 2026",
+      "startDate": "2026-09-05",
+      "endDate": "2026-09-05",
+      "city": "Multiple Cities",
+      "countryCode": "XF",
+      "url": "https://www.worldcubeassociation.org/competitions/WCAAfricanFMCChampionship2026"
+    },
+    {
+      "id": "NairobiTwistTurn2026",
+      "name": "Nairobi Twist & Turn 2026",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-22",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/NairobiTwistTurn2026"
+    },
+    {
+      "id": "FarrarmereFullSpeed2026",
+      "name": "Farrarmere Full Speed 2026",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-22",
+      "city": "Farrarmere, Benoni",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/FarrarmereFullSpeed2026"
+    },
+    {
+      "id": "MombasaTwistTurn2026",
+      "name": "Mombasa Twist & Turn 2026",
+      "startDate": "2026-08-08",
+      "endDate": "2026-08-08",
+      "city": "Mombasa",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/MombasaTwistTurn2026"
+    },
+    {
+      "id": "AlexandriaSummer2026",
+      "name": "Alexandria Summer 2026",
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-03",
+      "city": "Alexandria",
+      "countryCode": "EG",
+      "url": "https://www.worldcubeassociation.org/competitions/AlexandriaSummer2026"
+    },
+    {
+      "id": "CubestuffChallengeQ32026",
+      "name": "Cubestuff Challenge Centurion Q3 2026",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-02",
+      "city": "Centurion",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffChallengeQ32026"
+    },
+    {
+      "id": "SecundaSmoothSolvin2026",
+      "name": "Secunda Smooth Solvin' 2026",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-01",
+      "city": "Secunda, Mpumalanga",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/SecundaSmoothSolvin2026"
+    },
+    {
+      "id": "EgyptNational2026",
+      "name": "Egypt National 2026",
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-01",
+      "city": "Giza",
+      "countryCode": "EG",
+      "url": "https://www.worldcubeassociation.org/competitions/EgyptNational2026"
+    },
+    {
+      "id": "CubingintheCapeQ32026",
+      "name": "Cubing in the Cape Q3 2026",
+      "startDate": "2026-07-18",
+      "endDate": "2026-07-19",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingintheCapeQ32026"
+    },
+    {
+      "id": "ElJadidaOpen2026",
+      "name": "El Jadida Open 2026",
+      "startDate": "2026-07-11",
+      "endDate": "2026-07-11",
+      "city": "El Jadida",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/ElJadidaOpen2026"
+    },
+    {
+      "id": "IMETROOpen2026",
+      "name": "IMETRO Open 2026",
+      "startDate": "2026-07-04",
+      "endDate": "2026-07-04",
+      "city": "Luanda",
+      "countryCode": "AO",
+      "url": "https://www.worldcubeassociation.org/competitions/IMETROOpen2026"
+    },
+    {
+      "id": "CotedIvoireCubing2026",
+      "name": "Côte d'Ivoire Cubing 2026",
+      "startDate": "2026-07-04",
+      "endDate": "2026-07-04",
+      "city": "Abidjan",
+      "countryCode": "CI",
+      "url": "https://www.worldcubeassociation.org/competitions/CotedIvoireCubing2026"
+    },
+    {
+      "id": "INPTOpen2026",
+      "name": "INPT Open 2026",
+      "startDate": "2026-06-27",
+      "endDate": "2026-06-27",
+      "city": "Rabat",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/INPTOpen2026"
+    },
+    {
+      "id": "CubestuffLeonardo2026",
+      "name": "Cubestuff Grand Challenge - The Leonardo 2026",
+      "startDate": "2026-06-20",
+      "endDate": "2026-06-21",
+      "city": "Sandton",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffLeonardo2026"
+    },
+    {
+      "id": "AgadirOpen2026",
+      "name": "Agadir Open 2026",
+      "startDate": "2026-06-13",
+      "endDate": "2026-06-13",
+      "city": "Agadir",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/AgadirOpen2026"
+    },
+    {
+      "id": "NakuruTwistandTurn2026",
+      "name": "Nakuru Twist and Turn 2026",
+      "startDate": "2026-06-13",
+      "endDate": "2026-06-13",
+      "city": "Nakuru",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/NakuruTwistandTurn2026"
+    },
+    {
+      "id": "CaboVerdeNationals2026",
+      "name": "Cabo Verde Nationals 2026",
+      "startDate": "2026-06-06",
+      "endDate": "2026-06-06",
+      "city": "Praia",
+      "countryCode": "CV",
+      "url": "https://www.worldcubeassociation.org/competitions/CaboVerdeNationals2026"
+    },
+    {
+      "id": "MadaKingofCube2026",
+      "name": "Mada King of Cube 2026",
+      "startDate": "2026-05-30",
+      "endDate": "2026-05-30",
+      "city": "Antananarivo",
+      "countryCode": "MG",
+      "url": "https://www.worldcubeassociation.org/competitions/MadaKingofCube2026"
+    },
+    {
+      "id": "EversdalAutumnCapeTown2026",
+      "name": "Eversdal Autumn Cape Town 2026",
+      "startDate": "2026-05-24",
+      "endDate": "2026-05-24",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/EversdalAutumnCapeTown2026"
+    },
+    {
+      "id": "BenoniMayMadness2026",
+      "name": "Benoni May Madness 2026",
+      "startDate": "2026-05-17",
+      "endDate": "2026-05-17",
+      "city": "Benoni, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/BenoniMayMadness2026"
+    },
+    {
+      "id": "EBCOpen2026",
+      "name": "EBC Open 2026",
+      "startDate": "2026-05-09",
+      "endDate": "2026-05-09",
+      "city": "Casablanca",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/EBCOpen2026"
+    },
+    {
+      "id": "KingsCollegeOpen2026",
+      "name": "King's College Open 2026",
+      "startDate": "2026-04-18",
+      "endDate": "2026-04-18",
+      "city": "Onikan, Lagos",
+      "countryCode": "NG",
+      "url": "https://www.worldcubeassociation.org/competitions/KingsCollegeOpen2026"
+    },
+    {
+      "id": "MauritiusNationals2026",
+      "name": "Mauritius Speedcubing Nationals 2026",
+      "startDate": "2026-04-18",
+      "endDate": "2026-04-18",
+      "city": "Beau Bassin-Rose Hill",
+      "countryCode": "MU",
+      "url": "https://www.worldcubeassociation.org/competitions/MauritiusNationals2026"
+    },
+    {
+      "id": "NairobiBigandOH2026",
+      "name": "Nairobi Big and OH 2026",
+      "startDate": "2026-04-18",
+      "endDate": "2026-04-18",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/NairobiBigandOH2026"
+    },
+    {
+      "id": "CubeinLuanda2026",
+      "name": "Cube in Luanda 2026",
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-11",
+      "city": "Luanda",
+      "countryCode": "AO",
+      "url": "https://www.worldcubeassociation.org/competitions/CubeinLuanda2026"
+    },
+    {
+      "id": "CubestuffCenturionQ22026",
+      "name": "Cubestuff Centurion Q2 2026",
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-12",
+      "city": "Centurion",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffCenturionQ22026"
+    },
+    {
+      "id": "CubingBashBloemfontein2026",
+      "name": "Cubing Bash Bloemfontein 2026",
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-11",
+      "city": "Bloemfontein",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingBashBloemfontein2026"
+    },
+    {
+      "id": "AlexandriaSpring2026",
+      "name": "Alexandria Spring 2026",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-10",
+      "city": "Alexandria",
+      "countryCode": "EG",
+      "url": "https://www.worldcubeassociation.org/competitions/AlexandriaSpring2026"
+    },
+    {
+      "id": "BeginnerBlindBenoni2026",
+      "name": "Beginner & Blind Benoni 2026",
+      "startDate": "2026-03-29",
+      "endDate": "2026-03-29",
+      "city": "Benoni, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/BeginnerBlindBenoni2026"
+    },
+    {
+      "id": "CubingMada2026",
+      "name": "Cubing Mada 2026",
+      "startDate": "2026-03-28",
+      "endDate": "2026-03-29",
+      "city": "Antananarivo",
+      "countryCode": "MG",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingMada2026"
+    },
+    {
+      "id": "KerichoOpen2026",
+      "name": "Kericho Open 2026",
+      "startDate": "2026-03-14",
+      "endDate": "2026-03-14",
+      "city": "Kericho",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/KerichoOpen2026"
+    },
+    {
+      "id": "NairobiCubes2026",
+      "name": "Nairobi Cubes 2026",
+      "startDate": "2026-02-28",
+      "endDate": "2026-02-28",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/NairobiCubes2026"
+    },
+    {
+      "id": "CubingintheCapeQ12026",
+      "name": "Cubing in the Cape Q1 2026",
+      "startDate": "2026-02-08",
+      "endDate": "2026-02-08",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingintheCapeQ12026"
+    },
+    {
+      "id": "CubestuffCenturionQ12026",
+      "name": "Cubestuff Centurion Q1 2026",
+      "startDate": "2026-01-31",
+      "endDate": "2026-02-01",
+      "city": "Centurion",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffCenturionQ12026"
+    },
+    {
+      "id": "MarrakechOpen2026",
+      "name": "Marrakech Open 2026",
+      "startDate": "2026-01-31",
+      "endDate": "2026-01-31",
+      "city": "Marrakech",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/MarrakechOpen2026"
+    },
+    {
+      "id": "ZigzagZambiaCubing2026",
+      "name": "Zigzag Zambia Cubing 2026",
+      "startDate": "2026-01-03",
+      "endDate": "2026-01-03",
+      "city": "Lusaka",
+      "countryCode": "ZM",
+      "url": "https://www.worldcubeassociation.org/competitions/ZigzagZambiaCubing2026"
+    },
+    {
+      "id": "NoordhoekQuietXmas2025",
+      "name": "Noordhoek Quiet Xmas 2025",
+      "startDate": "2025-12-27",
+      "endDate": "2025-12-27",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/NoordhoekQuietXmas2025"
+    },
+    {
+      "id": "MerryTwistmasLynnwood2025",
+      "name": "Merry Twistmas Lynnwood 2025",
+      "startDate": "2025-12-13",
+      "endDate": "2025-12-13",
+      "city": "Pretoria, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/MerryTwistmasLynnwood2025"
+    },
+    {
+      "id": "BacktoMombasa2025",
+      "name": "Back to Mombasa 2025",
+      "startDate": "2025-12-07",
+      "endDate": "2025-12-07",
+      "city": "Mombasa",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/BacktoMombasa2025"
+    },
+    {
+      "id": "CubestuffCapeTown2025",
+      "name": "Cubestuff Grand Challenge Cape Town 2025",
+      "startDate": "2025-12-06",
+      "endDate": "2025-12-07",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffCapeTown2025"
+    },
+    {
+      "id": "CubestuffQ4Zwartkop2025",
+      "name": "Cubestuff Q4 Zwartkop 2025",
+      "startDate": "2025-11-29",
+      "endDate": "2025-11-30",
+      "city": "Centurion",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffQ4Zwartkop2025"
+    },
+    {
+      "id": "KenyaNationals2025",
+      "name": "Kenya Nationals 2025",
+      "startDate": "2025-11-22",
+      "endDate": "2025-11-22",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/KenyaNationals2025"
+    },
+    {
+      "id": "SolvinginSedgefield2025",
+      "name": "Solving in Sedgefield 2025",
+      "startDate": "2025-11-01",
+      "endDate": "2025-11-01",
+      "city": "Sedgefield",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/SolvinginSedgefield2025"
+    },
+    {
+      "id": "AlexandriaOpen2025",
+      "name": "Alexandria Open 2025",
+      "startDate": "2025-10-24",
+      "endDate": "2025-10-25",
+      "city": "Alexandria",
+      "countryCode": "EG",
+      "url": "https://www.worldcubeassociation.org/competitions/AlexandriaOpen2025"
+    },
+    {
+      "id": "CapeCubesSpring2025",
+      "name": "Cape Cubes Spring 2025",
+      "startDate": "2025-10-18",
+      "endDate": "2025-10-19",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapeCubesSpring2025"
+    },
+    {
+      "id": "CubingZAFMCChampionship2025",
+      "name": "CubingZA FMC Championship 2025",
+      "startDate": "2025-10-04",
+      "endDate": "2025-10-04",
+      "city": "Multiple Cities",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingZAFMCChampionship2025"
+    },
+    {
+      "id": "HowickSpring2025",
+      "name": "Howick Spring 2025",
+      "startDate": "2025-10-04",
+      "endDate": "2025-10-05",
+      "city": "Howick",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/HowickSpring2025"
+    },
+    {
+      "id": "CubeCoDurbanSpring2025",
+      "name": "CubeCo Durban Spring 2025",
+      "startDate": "2025-09-27",
+      "endDate": "2025-09-27",
+      "city": "Durban",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubeCoDurbanSpring2025"
+    },
+    {
+      "id": "MenloCubingOpen2025",
+      "name": "Menlo Cubing Open 2025",
+      "startDate": "2025-09-27",
+      "endDate": "2025-09-28",
+      "city": "Pretoria, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/MenloCubingOpen2025"
+    },
+    {
+      "id": "NakuruOpen2025",
+      "name": "Nakuru Open 2025",
+      "startDate": "2025-09-20",
+      "endDate": "2025-09-20",
+      "city": "Nakuru",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/NakuruOpen2025"
+    },
+    {
+      "id": "CubestuffCenturionQ32025",
+      "name": "Cubestuff Centurion Q3 2025",
+      "startDate": "2025-09-06",
+      "endDate": "2025-09-07",
+      "city": "Centurion",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffCenturionQ32025"
+    },
+    {
+      "id": "CubingMadaOpen2025",
+      "name": "Cubing Mada Open 2025",
+      "startDate": "2025-08-23",
+      "endDate": "2025-08-24",
+      "city": "Antananarivo",
+      "countryCode": "MG",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingMadaOpen2025"
+    },
+    {
+      "id": "HotelForumOpen2025",
+      "name": "Hotel Forum Open 2025",
+      "startDate": "2025-08-23",
+      "endDate": "2025-08-23",
+      "city": "Luanda",
+      "countryCode": "AO",
+      "url": "https://www.worldcubeassociation.org/competitions/HotelForumOpen2025"
+    },
+    {
+      "id": "NairobiNxNCubes2025",
+      "name": "Nairobi NxN Cubes 2025",
+      "startDate": "2025-08-23",
+      "endDate": "2025-08-23",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/NairobiNxNCubes2025"
+    },
+    {
+      "id": "BacktoKericho2025",
+      "name": "Back to Kericho 2025",
+      "startDate": "2025-08-16",
+      "endDate": "2025-08-16",
+      "city": "Kericho",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/BacktoKericho2025"
+    },
+    {
+      "id": "CapeCubesWinter2025",
+      "name": "Cape Cubes Winter 2025",
+      "startDate": "2025-08-02",
+      "endDate": "2025-08-03",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapeCubesWinter2025"
+    },
+    {
+      "id": "MoroccanChampionship2025",
+      "name": "Moroccan Championship 2025",
+      "startDate": "2025-08-02",
+      "endDate": "2025-08-03",
+      "city": "Casablanca",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/MoroccanChampionship2025"
+    },
+    {
+      "id": "TalatonaSpeedcubingOpen2025",
+      "name": "Talatona Speedcubing Open 2025",
+      "startDate": "2025-07-19",
+      "endDate": "2025-07-19",
+      "city": "Luanda",
+      "countryCode": "AO",
+      "url": "https://www.worldcubeassociation.org/competitions/TalatonaSpeedcubingOpen2025"
+    },
+    {
+      "id": "BoldSolvinBloemfontein2025",
+      "name": "Bold Solvin' Bloemfontein 2025",
+      "startDate": "2025-07-12",
+      "endDate": "2025-07-12",
+      "city": "Bloemfontein",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/BoldSolvinBloemfontein2025"
+    },
+    {
+      "id": "ZambiaCubingOpen2025",
+      "name": "Zambia Cubing Open 2025",
+      "startDate": "2025-07-05",
+      "endDate": "2025-07-05",
+      "city": "Lusaka",
+      "countryCode": "ZM",
+      "url": "https://www.worldcubeassociation.org/competitions/ZambiaCubingOpen2025"
+    },
+    {
+      "id": "KenyaLegacyTwist2025",
+      "name": "Kenya Legacy Twist 2025",
+      "startDate": "2025-06-28",
+      "endDate": "2025-06-28",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/KenyaLegacyTwist2025"
+    },
+    {
+      "id": "CubeinLuanda2025",
+      "name": "Cube in Luanda 2025",
+      "startDate": "2025-06-07",
+      "endDate": "2025-06-07",
+      "city": "Luanda",
+      "countryCode": "AO",
+      "url": "https://www.worldcubeassociation.org/competitions/CubeinLuanda2025"
+    },
+    {
+      "id": "CubestuffChallengeCenturionQ2025",
+      "name": "Cubestuff Challenge Centurion Q2 2025",
+      "startDate": "2025-06-07",
+      "endDate": "2025-06-08",
+      "city": "Centurion",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffChallengeCenturionQ2025"
+    },
+    {
+      "id": "MotherCityCubingCapeTown2025",
+      "name": "Mother City Cubing Cape Town 2025",
+      "startDate": "2025-05-24",
+      "endDate": "2025-05-25",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/MotherCityCubingCapeTown2025"
+    },
+    {
+      "id": "BeginnerBlindJohannesburg2025",
+      "name": "Beginner & Blind Johannesburg 2025",
+      "startDate": "2025-05-17",
+      "endDate": "2025-05-18",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/BeginnerBlindJohannesburg2025"
+    },
+    {
+      "id": "GhanaOpen2025",
+      "name": "Ghana Open 2025",
+      "startDate": "2025-05-03",
+      "endDate": "2025-05-03",
+      "city": "Accra",
+      "countryCode": "GH",
+      "url": "https://www.worldcubeassociation.org/competitions/GhanaOpen2025"
+    },
+    {
+      "id": "CubingZANationals2025",
+      "name": "CubingZA Nationals 2025",
+      "startDate": "2025-04-26",
+      "endDate": "2025-04-28",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingZANationals2025"
+    },
+    {
+      "id": "EBCOpen2025",
+      "name": "EBC Open 2025",
+      "startDate": "2025-04-26",
+      "endDate": "2025-04-26",
+      "city": "Casablanca",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/EBCOpen2025"
+    },
+    {
+      "id": "CotedIvoireCubing2025",
+      "name": "Côte d'Ivoire Cubing 2025",
+      "startDate": "2025-04-19",
+      "endDate": "2025-04-19",
+      "city": "Abidjan",
+      "countryCode": "CI",
+      "url": "https://www.worldcubeassociation.org/competitions/CotedIvoireCubing2025"
+    },
+    {
+      "id": "MegaManiaCapeTown2025",
+      "name": "Mega Mania Cape Town 2025",
+      "startDate": "2025-04-06",
+      "endDate": "2025-04-06",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/MegaManiaCapeTown2025"
+    },
+    {
+      "id": "CuBeaulieuCrazeComeback2025",
+      "name": "CuBeaulieu Craze Comeback 2025",
+      "startDate": "2025-03-29",
+      "endDate": "2025-03-30",
+      "city": "Midrand",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CuBeaulieuCrazeComeback2025"
+    },
+    {
+      "id": "BeniIsguenOpen2025",
+      "name": "Beni-Isguen Open 2025",
+      "startDate": "2025-03-27",
+      "endDate": "2025-03-27",
+      "city": "Bounoura, Ghardaia",
+      "countryCode": "DZ",
+      "url": "https://www.worldcubeassociation.org/competitions/BeniIsguenOpen2025"
+    },
+    {
+      "id": "CubeCoCoastalCubingKZN2025",
+      "name": "CubeCo Coastal Cubing KZN 2025",
+      "startDate": "2025-03-21",
+      "endDate": "2025-03-22",
+      "city": "Durban",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubeCoCoastalCubingKZN2025"
+    },
+    {
+      "id": "CubestuffCenturionQ12025",
+      "name": "Cubestuff Challenge Centurion Hotel Q1 2025",
+      "startDate": "2025-03-08",
+      "endDate": "2025-03-09",
+      "city": "Centurion",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffCenturionQ12025"
+    },
+    {
+      "id": "NewcomersCapeCubeFest2025",
+      "name": "Newcomers Cape Cube-Fest 2025",
+      "startDate": "2025-03-08",
+      "endDate": "2025-03-09",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/NewcomersCapeCubeFest2025"
+    },
+    {
+      "id": "GigiriCubingOpenAM2025",
+      "name": "Gigiri Cubing Open AM 2025",
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-01",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/GigiriCubingOpenAM2025"
+    },
+    {
+      "id": "GigiriCubingOpenPM2025",
+      "name": "Gigiri Cubing Open PM 2025",
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-01",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/GigiriCubingOpenPM2025"
+    },
+    {
+      "id": "INPTOlympiads2025",
+      "name": "INPT Olympiads 2025",
+      "startDate": "2025-02-22",
+      "endDate": "2025-02-22",
+      "city": "Rabat",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/INPTOlympiads2025"
+    },
+    {
+      "id": "UgandaCubingOpen2025",
+      "name": "Uganda Cubing Open 2025",
+      "startDate": "2025-02-01",
+      "endDate": "2025-02-01",
+      "city": "Kampala",
+      "countryCode": "UG",
+      "url": "https://www.worldcubeassociation.org/competitions/UgandaCubingOpen2025"
+    },
+    {
+      "id": "NoordhoekAeroplaneMode2025",
+      "name": "Noordhoek Aeroplane Mode 2025",
+      "startDate": "2025-01-26",
+      "endDate": "2025-01-26",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/NoordhoekAeroplaneMode2025"
+    },
+    {
+      "id": "PuzzlesinPinehurst2025",
+      "name": "Puzzles in Pinehurst 2025",
+      "startDate": "2025-01-18",
+      "endDate": "2025-01-19",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/PuzzlesinPinehurst2025"
+    },
+    {
+      "id": "PleaseBeQuietNairobi2024",
+      "name": "Please Be Quiet Nairobi 2024",
+      "startDate": "2024-12-22",
+      "endDate": "2024-12-22",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/PleaseBeQuietNairobi2024"
+    },
+    {
+      "id": "KenyaNationals2024",
+      "name": "Kenya Nationals 2024",
+      "startDate": "2024-12-21",
+      "endDate": "2024-12-21",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/KenyaNationals2024"
+    },
+    {
+      "id": "CapeCubesChallenge2024",
+      "name": "Cape Cubes Challenge 2024",
+      "startDate": "2024-12-14",
+      "endDate": "2024-12-15",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapeCubesChallenge2024"
+    },
+    {
+      "id": "CubingintheBayPortElizabeth2024",
+      "name": "Cubing in the Bay Port Elizabeth 2024",
+      "startDate": "2024-12-08",
+      "endDate": "2024-12-08",
+      "city": "Port Elizabeth",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingintheBayPortElizabeth2024"
+    },
+    {
+      "id": "CuBeaulieuCraze2024",
+      "name": "CuBeaulieu Craze 2024",
+      "startDate": "2024-12-07",
+      "endDate": "2024-12-08",
+      "city": "Midrand",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CuBeaulieuCraze2024"
+    },
+    {
+      "id": "CubeCoDurbanSummer2024",
+      "name": "CubeCo Durban Summer 2024",
+      "startDate": "2024-12-07",
+      "endDate": "2024-12-07",
+      "city": "Durban",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubeCoDurbanSummer2024"
+    },
+    {
+      "id": "MombasaOpen2024",
+      "name": "Mombasa Open 2024",
+      "startDate": "2024-12-07",
+      "endDate": "2024-12-07",
+      "city": "Mombasa",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/MombasaOpen2024"
+    },
+    {
+      "id": "AbujaOpen2024",
+      "name": "Abuja Open 2024",
+      "startDate": "2024-11-30",
+      "endDate": "2024-11-30",
+      "city": "Abuja",
+      "countryCode": "NG",
+      "url": "https://www.worldcubeassociation.org/competitions/AbujaOpen2024"
+    },
+    {
+      "id": "CubestuffMenlynParkQ42024",
+      "name": "Cubestuff Challenge Q4 Menlyn Park 2024",
+      "startDate": "2024-11-23",
+      "endDate": "2024-11-24",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffMenlynParkQ42024"
+    },
+    {
+      "id": "SpeedcubesBloemfontein2024",
+      "name": "Speedcubes Bloemfontein 2024",
+      "startDate": "2024-11-23",
+      "endDate": "2024-11-23",
+      "city": "Bloemfontein",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/SpeedcubesBloemfontein2024"
+    },
+    {
+      "id": "BeginnerandBlindCT2024",
+      "name": "Beginner and Blind Cape Town 2024",
+      "startDate": "2024-11-09",
+      "endDate": "2024-11-10",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/BeginnerandBlindCT2024"
+    },
+    {
+      "id": "EgyptFall2024",
+      "name": "Egypt Fall 2024",
+      "startDate": "2024-11-09",
+      "endDate": "2024-11-09",
+      "city": "Cairo",
+      "countryCode": "EG",
+      "url": "https://www.worldcubeassociation.org/competitions/EgyptFall2024"
+    },
+    {
+      "id": "MashujaaMegaOpen2024",
+      "name": "Mashujaa Mega Open 2024",
+      "startDate": "2024-10-19",
+      "endDate": "2024-10-19",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/MashujaaMegaOpen2024"
+    },
+    {
+      "id": "InniHorieFees2024",
+      "name": "Inni-Horie-Fees 2024",
+      "startDate": "2024-10-05",
+      "endDate": "2024-10-05",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/InniHorieFees2024"
+    },
+    {
+      "id": "MauritianOdyssey2024",
+      "name": "Mauritian Odyssey 2024",
+      "startDate": "2024-09-28",
+      "endDate": "2024-09-28",
+      "city": "Port Louis",
+      "countryCode": "MU",
+      "url": "https://www.worldcubeassociation.org/competitions/MauritianOdyssey2024"
+    },
+    {
+      "id": "RubiksWCAAfricanChampionship2024",
+      "name": "Rubik's WCA African Championship 2024",
+      "startDate": "2024-09-21",
+      "endDate": "2024-09-24",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/RubiksWCAAfricanChampionship2024"
+    },
+    {
+      "id": "BenoniCubingComeback2024",
+      "name": "Benoni Cubing Comeback 2024",
+      "startDate": "2024-08-31",
+      "endDate": "2024-09-01",
+      "city": "Benoni",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/BenoniCubingComeback2024"
+    },
+    {
+      "id": "HotelForumOpen2024",
+      "name": "Hotel Forum Open 2024",
+      "startDate": "2024-08-24",
+      "endDate": "2024-08-24",
+      "city": "Luanda",
+      "countryCode": "AO",
+      "url": "https://www.worldcubeassociation.org/competitions/HotelForumOpen2024"
+    },
+    {
+      "id": "QualifyinginKirstenhof2024",
+      "name": "Qualifying in Kirstenhof 2024",
+      "startDate": "2024-08-24",
+      "endDate": "2024-08-25",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/QualifyinginKirstenhof2024"
+    },
+    {
+      "id": "BiginLuanda2024",
+      "name": "Big in Luanda 2024",
+      "startDate": "2024-08-17",
+      "endDate": "2024-08-17",
+      "city": "Luanda",
+      "countryCode": "AO",
+      "url": "https://www.worldcubeassociation.org/competitions/BiginLuanda2024"
+    },
+    {
+      "id": "MoroccanNationals2024",
+      "name": "Moroccan Nationals 2024",
+      "startDate": "2024-08-03",
+      "endDate": "2024-08-04",
+      "city": "Casablanca",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/MoroccanNationals2024"
+    },
+    {
+      "id": "CubestuffCenturionQ32024",
+      "name": "Cubestuff Challenge Centurion Q3 2024",
+      "startDate": "2024-07-20",
+      "endDate": "2024-07-21",
+      "city": "Centurion",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffCenturionQ32024"
+    },
+    {
+      "id": "PleaseBeClockedCapeTown2024",
+      "name": "Please Be Clocked Cape Town 2024",
+      "startDate": "2024-06-29",
+      "endDate": "2024-06-29",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/PleaseBeClockedCapeTown2024"
+    },
+    {
+      "id": "BigBlindPretoria2024",
+      "name": "Big & Blind Pretoria 2024",
+      "startDate": "2024-06-15",
+      "endDate": "2024-06-15",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/BigBlindPretoria2024"
+    },
+    {
+      "id": "DurbanWinter2024",
+      "name": "Durban Winter 2024",
+      "startDate": "2024-06-08",
+      "endDate": "2024-06-08",
+      "city": "Durban",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/DurbanWinter2024"
+    },
+    {
+      "id": "Cubeat50Kenya2024",
+      "name": "Cube at 50 Kenya 2024",
+      "startDate": "2024-05-11",
+      "endDate": "2024-05-11",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/Cubeat50Kenya2024"
+    },
+    {
+      "id": "EversdalAutumn2024",
+      "name": "Eversdal Autumn 2024",
+      "startDate": "2024-05-11",
+      "endDate": "2024-05-11",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/EversdalAutumn2024"
+    },
+    {
+      "id": "CubingMada2024",
+      "name": "Cubing Mada 2024",
+      "startDate": "2024-05-04",
+      "endDate": "2024-05-05",
+      "city": "Antananarivo",
+      "countryCode": "MG",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingMada2024"
+    },
+    {
+      "id": "HarvestMoonCapeTown2024",
+      "name": "Harvest Moon Cape Town 2024",
+      "startDate": "2024-04-27",
+      "endDate": "2024-04-28",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/HarvestMoonCapeTown2024"
+    },
+    {
+      "id": "CubestuffChallengeQ22024",
+      "name": "Cubestuff Challenge Q2 2024",
+      "startDate": "2024-04-20",
+      "endDate": "2024-04-21",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffChallengeQ22024"
+    },
+    {
+      "id": "LuandaOpen2024",
+      "name": "Luanda Open 2024",
+      "startDate": "2024-04-13",
+      "endDate": "2024-04-13",
+      "city": "Luanda",
+      "countryCode": "AO",
+      "url": "https://www.worldcubeassociation.org/competitions/LuandaOpen2024"
+    },
+    {
+      "id": "DeepSouthCapeTown2024",
+      "name": "Deep South Solving Cape Town 2024",
+      "startDate": "2024-04-06",
+      "endDate": "2024-04-07",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/DeepSouthCapeTown2024"
+    },
+    {
+      "id": "KingdomLifeIbadanOpen2024",
+      "name": "Kingdom Life Ibadan Open 2024",
+      "startDate": "2024-03-16",
+      "endDate": "2024-03-16",
+      "city": "Ibadan, Oyo State",
+      "countryCode": "NG",
+      "url": "https://www.worldcubeassociation.org/competitions/KingdomLifeIbadanOpen2024"
+    },
+    {
+      "id": "PuzzlinPolokwane2024",
+      "name": "Puzzlin' Polokwane 2024",
+      "startDate": "2024-03-15",
+      "endDate": "2024-03-16",
+      "city": "Polokwane",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/PuzzlinPolokwane2024"
+    },
+    {
+      "id": "MidSummerMadnessCapeTown2024",
+      "name": "Mid Summer Madness Cape Town 2024",
+      "startDate": "2024-02-17",
+      "endDate": "2024-02-18",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/MidSummerMadnessCapeTown2024"
+    },
+    {
+      "id": "EgyptWinter2024",
+      "name": "Egypt Winter 2024",
+      "startDate": "2024-02-03",
+      "endDate": "2024-02-03",
+      "city": "Cairo",
+      "countryCode": "EG",
+      "url": "https://www.worldcubeassociation.org/competitions/EgyptWinter2024"
+    },
+    {
+      "id": "CubestuffChallengeQ12024",
+      "name": "Cubestuff Challenge Q1 2024",
+      "startDate": "2024-01-27",
+      "endDate": "2024-01-28",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubestuffChallengeQ12024"
+    },
+    {
+      "id": "BigBlindKenya2024",
+      "name": "Big & Blind Kenya 2024",
+      "startDate": "2024-01-20",
+      "endDate": "2024-01-20",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/BigBlindKenya2024"
+    },
+    {
+      "id": "CubingZAFMCChampionship2023",
+      "name": "CubingZA FMC Championship 2023",
+      "startDate": "2023-12-16",
+      "endDate": "2023-12-16",
+      "city": "Multiple Cities",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingZAFMCChampionship2023"
+    },
+    {
+      "id": "TheNairobiOpen2023",
+      "name": "The Nairobi Open 2023",
+      "startDate": "2023-12-16",
+      "endDate": "2023-12-16",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/TheNairobiOpen2023"
+    },
+    {
+      "id": "CubingZACapeCubesChallenge2023",
+      "name": "CubingZA Cape Cubes Challenge 2023",
+      "startDate": "2023-12-09",
+      "endDate": "2023-12-10",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingZACapeCubesChallenge2023"
+    },
+    {
+      "id": "NigerianChampionship2023",
+      "name": "Nigerian Championship 2023",
+      "startDate": "2023-12-08",
+      "endDate": "2023-12-09",
+      "city": "Ikeja, Lagos State",
+      "countryCode": "NG",
+      "url": "https://www.worldcubeassociation.org/competitions/NigerianChampionship2023"
+    },
+    {
+      "id": "Hike2CubeKenya2023",
+      "name": "Hike 2 Cube Kenya 2023",
+      "startDate": "2023-12-03",
+      "endDate": "2023-12-03",
+      "city": "Machakos",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/Hike2CubeKenya2023"
+    },
+    {
+      "id": "PleaseBeSolvedThisTimeJoburg2023",
+      "name": "Please Be Solved This Time Joburg 2023",
+      "startDate": "2023-11-26",
+      "endDate": "2023-11-26",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/PleaseBeSolvedThisTimeJoburg2023"
+    },
+    {
+      "id": "MimosaMallMasterCubers2023",
+      "name": "Mimosa Mall Master Cubers 2023",
+      "startDate": "2023-11-25",
+      "endDate": "2023-11-25",
+      "city": "Bloemfontein",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/MimosaMallMasterCubers2023"
+    },
+    {
+      "id": "PretoriaSpringAfternoon2023",
+      "name": "Pretoria Spring Afternoon 2023",
+      "startDate": "2023-11-25",
+      "endDate": "2023-11-25",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/PretoriaSpringAfternoon2023"
+    },
+    {
+      "id": "PretoriaSpringMorning2023",
+      "name": "Pretoria Spring Morning 2023",
+      "startDate": "2023-11-25",
+      "endDate": "2023-11-25",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/PretoriaSpringMorning2023"
+    },
+    {
+      "id": "CubingZACapeCubesSpring2023",
+      "name": "CubingZA Cape Cubes Spring 2023",
+      "startDate": "2023-09-30",
+      "endDate": "2023-10-01",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingZACapeCubesSpring2023"
+    },
+    {
+      "id": "KerichoOpen2023",
+      "name": "Kericho Open 2023",
+      "startDate": "2023-09-16",
+      "endDate": "2023-09-16",
+      "city": "Kericho",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/KerichoOpen2023"
+    },
+    {
+      "id": "MoroccoComeback2023",
+      "name": "Morocco Comeback 2023",
+      "startDate": "2023-08-12",
+      "endDate": "2023-08-13",
+      "city": "Casablanca",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/MoroccoComeback2023"
+    },
+    {
+      "id": "BackinMauritius2023",
+      "name": "Back in Mauritius 2023",
+      "startDate": "2023-08-11",
+      "endDate": "2023-08-11",
+      "city": "Grand Baie",
+      "countryCode": "MU",
+      "url": "https://www.worldcubeassociation.org/competitions/BackinMauritius2023"
+    },
+    {
+      "id": "BrightSunOpen2023",
+      "name": "Bright Sun Open 2023",
+      "startDate": "2023-07-20",
+      "endDate": "2023-07-20",
+      "city": "Agidingbi, Lagos State",
+      "countryCode": "NG",
+      "url": "https://www.worldcubeassociation.org/competitions/BrightSunOpen2023"
+    },
+    {
+      "id": "TheComplexKenya2023",
+      "name": "The Complex Kenya 2023",
+      "startDate": "2023-07-16",
+      "endDate": "2023-07-16",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/TheComplexKenya2023"
+    },
+    {
+      "id": "AlgeriaSummerOpen2023",
+      "name": "Algeria Summer Open 2023",
+      "startDate": "2023-07-08",
+      "endDate": "2023-07-08",
+      "city": "Setif",
+      "countryCode": "DZ",
+      "url": "https://www.worldcubeassociation.org/competitions/AlgeriaSummerOpen2023"
+    },
+    {
+      "id": "CubingZANationalChampionship2023",
+      "name": "CubingZA National Championship 2023",
+      "startDate": "2023-06-16",
+      "endDate": "2023-06-18",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingZANationalChampionship2023"
+    },
+    {
+      "id": "ThePeponiHouseTwistTurn2023",
+      "name": "The Peponi House Twist & Turn 2023",
+      "startDate": "2023-05-13",
+      "endDate": "2023-05-13",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/ThePeponiHouseTwistTurn2023"
+    },
+    {
+      "id": "LuandaOpen2023",
+      "name": "Luanda Open 2023",
+      "startDate": "2023-05-07",
+      "endDate": "2023-05-07",
+      "city": "Luanda",
+      "countryCode": "AO",
+      "url": "https://www.worldcubeassociation.org/competitions/LuandaOpen2023"
+    },
+    {
+      "id": "DolphinCoastAutumn2023",
+      "name": "Dolphin Coast Autumn 2023",
+      "startDate": "2023-05-01",
+      "endDate": "2023-05-01",
+      "city": "Salt Rock",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/DolphinCoastAutumn2023"
+    },
+    {
+      "id": "CubingZACapeCubesAutumn2023",
+      "name": "CubingZA Cape Cubes Autumn 2023",
+      "startDate": "2023-04-22",
+      "endDate": "2023-04-23",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingZACapeCubesAutumn2023"
+    },
+    {
+      "id": "PleaseBeQuietJoburg2023",
+      "name": "Please Be Quiet Joburg 2023",
+      "startDate": "2023-03-11",
+      "endDate": "2023-03-11",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/PleaseBeQuietJoburg2023"
+    },
+    {
+      "id": "CrazyCubingCenturion2023",
+      "name": "Crazy Cubing Centurion 2023",
+      "startDate": "2023-02-11",
+      "endDate": "2023-02-12",
+      "city": "Centurion",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CrazyCubingCenturion2023"
+    },
+    {
+      "id": "CubingZACapeCubesSummer2023",
+      "name": "CubingZA Cape Cubes Summer 2023",
+      "startDate": "2023-01-28",
+      "endDate": "2023-01-29",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingZACapeCubesSummer2023"
+    },
+    {
+      "id": "CubeCoDurbanSummer2022",
+      "name": "CubeCo Durban Summer 2022",
+      "startDate": "2022-12-03",
+      "endDate": "2022-12-04",
+      "city": "Durban",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubeCoDurbanSummer2022"
+    },
+    {
+      "id": "MimosaMallMasterCubers2022",
+      "name": "Mimosa Mall Master Cubers 2022",
+      "startDate": "2022-11-19",
+      "endDate": "2022-11-19",
+      "city": "Bloemfontein",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/MimosaMallMasterCubers2022"
+    },
+    {
+      "id": "JustCubeJoburg2022",
+      "name": "Just Cube Joburg 2022",
+      "startDate": "2022-11-12",
+      "endDate": "2022-11-13",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/JustCubeJoburg2022"
+    },
+    {
+      "id": "NigeriaChampionship2022",
+      "name": "Nigeria Championship 2022",
+      "startDate": "2022-10-07",
+      "endDate": "2022-10-08",
+      "city": "Yaba, Lagos State",
+      "countryCode": "NG",
+      "url": "https://www.worldcubeassociation.org/competitions/NigeriaChampionship2022"
+    },
+    {
+      "id": "WCAAfricanChampionship2022",
+      "name": "Rubik's WCA African Championship 2022",
+      "startDate": "2022-10-07",
+      "endDate": "2022-10-09",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/WCAAfricanChampionship2022"
+    },
+    {
+      "id": "InniHorieFeesSpeedcubing2022",
+      "name": "Inni-Horie-Fees Speedcubing 2022",
+      "startDate": "2022-09-24",
+      "endDate": "2022-09-24",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/InniHorieFeesSpeedcubing2022"
+    },
+    {
+      "id": "CubingEgypt2022",
+      "name": "Cubing Egypt 2022",
+      "startDate": "2022-09-17",
+      "endDate": "2022-09-17",
+      "city": "Giza/Haram",
+      "countryCode": "EG",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingEgypt2022"
+    },
+    {
+      "id": "AlgiersSummerOpen2022",
+      "name": "Algiers Summer Open 2022",
+      "startDate": "2022-09-05",
+      "endDate": "2022-09-05",
+      "city": "Algiers",
+      "countryCode": "DZ",
+      "url": "https://www.worldcubeassociation.org/competitions/AlgiersSummerOpen2022"
+    },
+    {
+      "id": "GreenSchoolPaarlOpen2022",
+      "name": "Green School Paarl Open 2022",
+      "startDate": "2022-08-28",
+      "endDate": "2022-08-28",
+      "city": "Paarl",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/GreenSchoolPaarlOpen2022"
+    },
+    {
+      "id": "LagosOpen2022",
+      "name": "Lagos Open 2022",
+      "startDate": "2022-08-20",
+      "endDate": "2022-08-20",
+      "city": "Lagos",
+      "countryCode": "NG",
+      "url": "https://www.worldcubeassociation.org/competitions/LagosOpen2022"
+    },
+    {
+      "id": "Limpopo2022",
+      "name": "Limpopo 2022",
+      "startDate": "2022-08-06",
+      "endDate": "2022-08-06",
+      "city": "Polokwane",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/Limpopo2022"
+    },
+    {
+      "id": "CubeCoDurbanWinterWarmup2022",
+      "name": "CubeCo Durban Winter Warmup 2022",
+      "startDate": "2022-07-30",
+      "endDate": "2022-07-31",
+      "city": "Durban",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CubeCoDurbanWinterWarmup2022"
+    },
+    {
+      "id": "NavitasCubeChallengeKenya2022",
+      "name": "Navitas Cube Challenge Kenya 2022",
+      "startDate": "2022-07-16",
+      "endDate": "2022-07-16",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/NavitasCubeChallengeKenya2022"
+    },
+    {
+      "id": "ArnoldClassicAfrica2022",
+      "name": "Arnold Classic Africa 2022",
+      "startDate": "2022-06-03",
+      "endDate": "2022-06-05",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/ArnoldClassicAfrica2022"
+    },
+    {
+      "id": "SpeedcubesCapeTown2022",
+      "name": "Speedcubes Cape Town 2022",
+      "startDate": "2022-05-29",
+      "endDate": "2022-05-29",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/SpeedcubesCapeTown2022"
+    },
+    {
+      "id": "GautengAutumn2022",
+      "name": "Gauteng Autumn 2022",
+      "startDate": "2022-05-15",
+      "endDate": "2022-05-15",
+      "city": "Ekurhuleni, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/GautengAutumn2022"
+    },
+    {
+      "id": "CapeTownSummer2022",
+      "name": "Cape Town Summer 2022",
+      "startDate": "2022-03-06",
+      "endDate": "2022-03-06",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapeTownSummer2022"
+    },
+    {
+      "id": "DurbanSummerWarmup2021",
+      "name": "Durban Summer Warm-up 2021",
+      "startDate": "2021-12-04",
+      "endDate": "2021-12-04",
+      "city": "Durban",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/DurbanSummerWarmup2021"
+    },
+    {
+      "id": "PostLockdownFestTunisia2020",
+      "name": "Post-Lockdown Fest Tunisia 2020",
+      "startDate": "2020-08-31",
+      "endDate": "2020-08-31",
+      "city": "Monastir",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/PostLockdownFestTunisia2020"
+    },
+    {
+      "id": "CapeTownSummer2020",
+      "name": "Cape Town Summer 2020",
+      "startDate": "2020-03-14",
+      "endDate": "2020-03-15",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapeTownSummer2020"
+    },
+    {
+      "id": "CubingEgyptWinter2020",
+      "name": "Cubing Egypt Winter 2020",
+      "startDate": "2020-03-07",
+      "endDate": "2020-03-07",
+      "city": "Cairo",
+      "countryCode": "EG",
+      "url": "https://www.worldcubeassociation.org/competitions/CubingEgyptWinter2020"
+    },
+    {
+      "id": "MauritiusOpen2020",
+      "name": "Mauritius Open 2020",
+      "startDate": "2020-02-23",
+      "endDate": "2020-02-23",
+      "city": "Moka",
+      "countryCode": "MU",
+      "url": "https://www.worldcubeassociation.org/competitions/MauritiusOpen2020"
+    },
+    {
+      "id": "GhanaChampionship2020",
+      "name": "EduLearn-ARIS Ghana Championship 2020",
+      "startDate": "2020-02-08",
+      "endDate": "2020-02-09",
+      "city": "Accra",
+      "countryCode": "GH",
+      "url": "https://www.worldcubeassociation.org/competitions/GhanaChampionship2020"
+    },
+    {
+      "id": "WinterSetifOpen2019",
+      "name": "Winter Setif Open 2019",
+      "startDate": "2019-12-21",
+      "endDate": "2019-12-21",
+      "city": "Setif",
+      "countryCode": "DZ",
+      "url": "https://www.worldcubeassociation.org/competitions/WinterSetifOpen2019"
+    },
+    {
+      "id": "CapeTownSpring2019",
+      "name": "Cape Town Spring 2019",
+      "startDate": "2019-10-20",
+      "endDate": "2019-10-20",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapeTownSpring2019"
+    },
+    {
+      "id": "SkikdaOpen2019",
+      "name": "Skikda Open 2019",
+      "startDate": "2019-09-07",
+      "endDate": "2019-09-07",
+      "city": "Skikda",
+      "countryCode": "DZ",
+      "url": "https://www.worldcubeassociation.org/competitions/SkikdaOpen2019"
+    },
+    {
+      "id": "SfaxSummerOpen2019",
+      "name": "Sfax Summer Open 2019",
+      "startDate": "2019-08-18",
+      "endDate": "2019-08-18",
+      "city": "Sfax",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/SfaxSummerOpen2019"
+    },
+    {
+      "id": "EgyptianChampionship2019",
+      "name": "Egyptian Championship 2019",
+      "startDate": "2019-08-03",
+      "endDate": "2019-08-03",
+      "city": "Cairo",
+      "countryCode": "EG",
+      "url": "https://www.worldcubeassociation.org/competitions/EgyptianChampionship2019"
+    },
+    {
+      "id": "MoroccoSummer2019",
+      "name": "Morocco Summer 2019",
+      "startDate": "2019-07-07",
+      "endDate": "2019-07-07",
+      "city": "Rabat",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/MoroccoSummer2019"
+    },
+    {
+      "id": "TunisiaKhomsaSummerOpen2019",
+      "name": "Tunisia Khomsa Summer Open 2019",
+      "startDate": "2019-07-07",
+      "endDate": "2019-07-07",
+      "city": "Tunis",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaKhomsaSummerOpen2019"
+    },
+    {
+      "id": "SmartCubersEgypt2019",
+      "name": "Smart Cubers Egypt 2019",
+      "startDate": "2019-06-22",
+      "endDate": "2019-06-22",
+      "city": "Hurghada",
+      "countryCode": "EG",
+      "url": "https://www.worldcubeassociation.org/competitions/SmartCubersEgypt2019"
+    },
+    {
+      "id": "MadagascarCubingOpen2019",
+      "name": "Madagascar Cubing Open 2019",
+      "startDate": "2019-06-01",
+      "endDate": "2019-06-01",
+      "city": "Antananarivo",
+      "countryCode": "MG",
+      "url": "https://www.worldcubeassociation.org/competitions/MadagascarCubingOpen2019"
+    },
+    {
+      "id": "NigeriaOpen2019",
+      "name": "Nigeria Open 2019",
+      "startDate": "2019-05-25",
+      "endDate": "2019-05-26",
+      "city": "Lagos",
+      "countryCode": "NG",
+      "url": "https://www.worldcubeassociation.org/competitions/NigeriaOpen2019"
+    },
+    {
+      "id": "ArnoldClassicAfrica2019",
+      "name": "Arnold Classic Africa 2019",
+      "startDate": "2019-05-17",
+      "endDate": "2019-05-19",
+      "city": "Johannesburg, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/ArnoldClassicAfrica2019"
+    },
+    {
+      "id": "CampusClassicCapeTown2019",
+      "name": "Campus Classic Cape Town 2019",
+      "startDate": "2019-04-28",
+      "endDate": "2019-04-28",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CampusClassicCapeTown2019"
+    },
+    {
+      "id": "KwaZuluNatal2019",
+      "name": "KwaZulu-Natal 2019",
+      "startDate": "2019-04-27",
+      "endDate": "2019-04-27",
+      "city": "Salt Rock, KwaZulu Natal",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/KwaZuluNatal2019"
+    },
+    {
+      "id": "GhanaOpen2019",
+      "name": "Ghana Open 2019",
+      "startDate": "2019-04-06",
+      "endDate": "2019-04-06",
+      "city": "Accra",
+      "countryCode": "GH",
+      "url": "https://www.worldcubeassociation.org/competitions/GhanaOpen2019"
+    },
+    {
+      "id": "MonastirSpringOpen2019",
+      "name": "Monastir Spring Open 2019",
+      "startDate": "2019-03-24",
+      "endDate": "2019-03-24",
+      "city": "Monastir",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/MonastirSpringOpen2019"
+    },
+    {
+      "id": "MauritiusOpen2019",
+      "name": "Mauritius Open 2019",
+      "startDate": "2019-03-17",
+      "endDate": "2019-03-17",
+      "city": "Moka",
+      "countryCode": "MU",
+      "url": "https://www.worldcubeassociation.org/competitions/MauritiusOpen2019"
+    },
+    {
+      "id": "IdealeNabeulOpen2019",
+      "name": "Idéale Nabeul Open 2019",
+      "startDate": "2019-02-16",
+      "endDate": "2019-02-17",
+      "city": "Nabeul",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/IdealeNabeulOpen2019"
+    },
+    {
+      "id": "SpeedcubesCapeTown2019",
+      "name": "Speedcubes Cape Town 2019",
+      "startDate": "2019-01-20",
+      "endDate": "2019-01-20",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/SpeedcubesCapeTown2019"
+    },
+    {
+      "id": "TunisiaKhomsaOpen2019",
+      "name": "Tunisia Khomsa Open 2019",
+      "startDate": "2019-01-14",
+      "endDate": "2019-01-14",
+      "city": "Tunis",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaKhomsaOpen2019"
+    },
+    {
+      "id": "NairobiCubeChallenge2019",
+      "name": "Nairobi Cube Challenge 2019",
+      "startDate": "2019-01-12",
+      "endDate": "2019-01-12",
+      "city": "Nairobi",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/NairobiCubeChallenge2019"
+    },
+    {
+      "id": "GautengSummer2019",
+      "name": "Gauteng Summer 2019",
+      "startDate": "2019-01-05",
+      "endDate": "2019-01-05",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/GautengSummer2019"
+    },
+    {
+      "id": "MonastirWinterOpen2018",
+      "name": "Monastir Winter Open 2018",
+      "startDate": "2018-12-23",
+      "endDate": "2018-12-23",
+      "city": "Monastir",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/MonastirWinterOpen2018"
+    },
+    {
+      "id": "MoroccoAutumn2018",
+      "name": "Morocco Autumn 2018",
+      "startDate": "2018-12-02",
+      "endDate": "2018-12-02",
+      "city": "Casablanca",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/MoroccoAutumn2018"
+    },
+    {
+      "id": "IdealeNabeulOpen2018",
+      "name": "Idéale Nabeul Open 2018",
+      "startDate": "2018-11-17",
+      "endDate": "2018-11-18",
+      "city": "Nabeul",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/IdealeNabeulOpen2018"
+    },
+    {
+      "id": "TunisiaAutumnOpen2018",
+      "name": "Tunisia Autumn Open 2018",
+      "startDate": "2018-10-15",
+      "endDate": "2018-10-15",
+      "city": "Monastir",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaAutumnOpen2018"
+    },
+    {
+      "id": "SowetoSpringOpen2018",
+      "name": "Soweto Spring Open 2018",
+      "startDate": "2018-09-08",
+      "endDate": "2018-09-08",
+      "city": "Johannesburg, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/SowetoSpringOpen2018"
+    },
+    {
+      "id": "FinallyTunisOpen2018",
+      "name": "Finally Tunis Open 2018",
+      "startDate": "2018-08-05",
+      "endDate": "2018-08-05",
+      "city": "Ben Arous",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/FinallyTunisOpen2018"
+    },
+    {
+      "id": "ChachyaOpenRotaryEdition2018",
+      "name": "Chachya Open Rotary Edition 2018",
+      "startDate": "2018-06-30",
+      "endDate": "2018-07-01",
+      "city": "Sousse",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/ChachyaOpenRotaryEdition2018"
+    },
+    {
+      "id": "ArnoldClassicAfrica2018",
+      "name": "Arnold Classic Africa 2018",
+      "startDate": "2018-05-18",
+      "endDate": "2018-05-20",
+      "city": "Johannesburg, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/ArnoldClassicAfrica2018"
+    },
+    {
+      "id": "SetifSpringOpen2018",
+      "name": "Setif Spring Open 2018",
+      "startDate": "2018-04-21",
+      "endDate": "2018-04-21",
+      "city": "Setif",
+      "countryCode": "DZ",
+      "url": "https://www.worldcubeassociation.org/competitions/SetifSpringOpen2018"
+    },
+    {
+      "id": "SpeedcubesCapeTown2018",
+      "name": "Speedcubes Cape Town 2018",
+      "startDate": "2018-04-09",
+      "endDate": "2018-04-09",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/SpeedcubesCapeTown2018"
+    },
+    {
+      "id": "MoroccoOpen2018",
+      "name": "Morocco Open 2018",
+      "startDate": "2018-04-08",
+      "endDate": "2018-04-08",
+      "city": "Casablanca",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/MoroccoOpen2018"
+    },
+    {
+      "id": "GautengAutumn2018",
+      "name": "Gauteng Autumn 2018",
+      "startDate": "2018-03-24",
+      "endDate": "2018-03-24",
+      "city": "Pretoria, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/GautengAutumn2018"
+    },
+    {
+      "id": "TunisiaWinterOpen2018",
+      "name": "Tunisia Winter Open 2018",
+      "startDate": "2018-03-20",
+      "endDate": "2018-03-20",
+      "city": "Sousse",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaWinterOpen2018"
+    },
+    {
+      "id": "MauritiusOpen2018",
+      "name": "Mauritius Open 2018",
+      "startDate": "2018-01-06",
+      "endDate": "2018-01-06",
+      "city": "Pamplemousses",
+      "countryCode": "MU",
+      "url": "https://www.worldcubeassociation.org/competitions/MauritiusOpen2018"
+    },
+    {
+      "id": "AlgeriaWinterOpen2017",
+      "name": "Algeria Winter Open 2017",
+      "startDate": "2017-12-28",
+      "endDate": "2017-12-28",
+      "city": "Algiers",
+      "countryCode": "DZ",
+      "url": "https://www.worldcubeassociation.org/competitions/AlgeriaWinterOpen2017"
+    },
+    {
+      "id": "TunisiaWinterOpenDay2017",
+      "name": "Tunisia Winter Open Day 2017",
+      "startDate": "2017-12-20",
+      "endDate": "2017-12-20",
+      "city": "Sousse",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaWinterOpenDay2017"
+    },
+    {
+      "id": "SpeedcubesCapeTown2017",
+      "name": "Speedcubes Cape Town 2017",
+      "startDate": "2017-11-05",
+      "endDate": "2017-11-05",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/SpeedcubesCapeTown2017"
+    },
+    {
+      "id": "TunisiaAutumnOpen2017",
+      "name": "Tunisia Autumn Open 2017",
+      "startDate": "2017-10-29",
+      "endDate": "2017-10-29",
+      "city": "Monastir",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaAutumnOpen2017"
+    },
+    {
+      "id": "BignWeirdPretoria2017",
+      "name": "Big 'n Weird Pretoria 2017",
+      "startDate": "2017-09-30",
+      "endDate": "2017-09-30",
+      "city": "Pretoria, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/BignWeirdPretoria2017"
+    },
+    {
+      "id": "Johannesburg2017",
+      "name": "Speedcubes Johannesburg 2017",
+      "startDate": "2017-09-10",
+      "endDate": "2017-09-10",
+      "city": "Johannesburg, Gauteng",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/Johannesburg2017"
+    },
+    {
+      "id": "AlgeriaSummerOpen2017",
+      "name": "Algeria Summer Open 2017",
+      "startDate": "2017-08-28",
+      "endDate": "2017-08-28",
+      "city": "Alger",
+      "countryCode": "DZ",
+      "url": "https://www.worldcubeassociation.org/competitions/AlgeriaSummerOpen2017"
+    },
+    {
+      "id": "EdenVillageWinter2017",
+      "name": "Eden Village Winter 2017",
+      "startDate": "2017-07-15",
+      "endDate": "2017-07-15",
+      "city": "Salt Rock, KwaZulu Natal",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/EdenVillageWinter2017"
+    },
+    {
+      "id": "GautengWinter2017",
+      "name": "Gauteng Winter 2017",
+      "startDate": "2017-07-08",
+      "endDate": "2017-07-08",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/GautengWinter2017"
+    },
+    {
+      "id": "ChachyaOpen2017",
+      "name": "Chachya Open 2017",
+      "startDate": "2017-06-29",
+      "endDate": "2017-06-30",
+      "city": "Monastir",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/ChachyaOpen2017"
+    },
+    {
+      "id": "MoroccoOpen2017",
+      "name": "Morocco Open 2017",
+      "startDate": "2017-03-05",
+      "endDate": "2017-03-05",
+      "city": "Casablanca",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/MoroccoOpen2017"
+    },
+    {
+      "id": "TunisiaSpringOpen2017",
+      "name": "Tunisia Spring Open 2017",
+      "startDate": "2017-02-26",
+      "endDate": "2017-02-26",
+      "city": "Hammam Sousse",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaSpringOpen2017"
+    },
+    {
+      "id": "TunisiaWinterOpen2017",
+      "name": "Tunisia Winter Open 2017",
+      "startDate": "2017-01-11",
+      "endDate": "2017-01-11",
+      "city": "Sousse",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaWinterOpen2017"
+    },
+    {
+      "id": "AlgeriaWinter2016",
+      "name": "Algeria Winter 2016",
+      "startDate": "2016-12-24",
+      "endDate": "2016-12-24",
+      "city": "Algiers",
+      "countryCode": "DZ",
+      "url": "https://www.worldcubeassociation.org/competitions/AlgeriaWinter2016"
+    },
+    {
+      "id": "CapeTown2016",
+      "name": "Cape Town 2016",
+      "startDate": "2016-12-04",
+      "endDate": "2016-12-04",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapeTown2016"
+    },
+    {
+      "id": "TunisiaAutumnOpen2016",
+      "name": "Tunisia Autumn Open 2016",
+      "startDate": "2016-11-30",
+      "endDate": "2016-11-30",
+      "city": "Monastir",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaAutumnOpen2016"
+    },
+    {
+      "id": "Johannesburg2016",
+      "name": "Johannesburg 2016",
+      "startDate": "2016-11-27",
+      "endDate": "2016-11-27",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/Johannesburg2016"
+    },
+    {
+      "id": "AlgersSummerOpen2016",
+      "name": "Algers Summer Open 2016",
+      "startDate": "2016-08-20",
+      "endDate": "2016-08-20",
+      "city": "Alger",
+      "countryCode": "DZ",
+      "url": "https://www.worldcubeassociation.org/competitions/AlgersSummerOpen2016"
+    },
+    {
+      "id": "TunisiaSummerOpen2016",
+      "name": "Tunisia Summer Open 2016",
+      "startDate": "2016-07-08",
+      "endDate": "2016-07-08",
+      "city": "Monastir",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaSummerOpen2016"
+    },
+    {
+      "id": "CapeTownOpen2016",
+      "name": "Cape Town Open 2016",
+      "startDate": "2016-06-26",
+      "endDate": "2016-06-26",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapeTownOpen2016"
+    },
+    {
+      "id": "JohannesburgOpen2016",
+      "name": "Johannesburg Open 2016",
+      "startDate": "2016-06-19",
+      "endDate": "2016-06-19",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/JohannesburgOpen2016"
+    },
+    {
+      "id": "TunisiaSpringOpen2016",
+      "name": "Tunisia Spring Open 2016",
+      "startDate": "2016-03-15",
+      "endDate": "2016-03-15",
+      "city": "Monastir",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaSpringOpen2016"
+    },
+    {
+      "id": "BignWeird2016",
+      "name": "Big 'n Weird Pretoria 2016",
+      "startDate": "2016-02-13",
+      "endDate": "2016-02-13",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/BignWeird2016"
+    },
+    {
+      "id": "TunisiaWinterOpen2015",
+      "name": "Tunisia Winter Open 2015",
+      "startDate": "2015-12-23",
+      "endDate": "2015-12-23",
+      "city": "Nabeul",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaWinterOpen2015"
+    },
+    {
+      "id": "CapetownOpen2015",
+      "name": "Cape Town Open 2015",
+      "startDate": "2015-12-06",
+      "endDate": "2015-12-07",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapetownOpen2015"
+    },
+    {
+      "id": "JohannesburgOpen2015",
+      "name": "Johannesburg Open 2015",
+      "startDate": "2015-11-29",
+      "endDate": "2015-11-30",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/JohannesburgOpen2015"
+    },
+    {
+      "id": "PopsWinter2015",
+      "name": "Pops Winter 2015",
+      "startDate": "2015-08-29",
+      "endDate": "2015-08-29",
+      "city": "Benoni",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/PopsWinter2015"
+    },
+    {
+      "id": "PretoriaScienceWeek2015",
+      "name": "Pretoria Science Week 2015",
+      "startDate": "2015-08-08",
+      "endDate": "2015-08-08",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/PretoriaScienceWeek2015"
+    },
+    {
+      "id": "KimberleyOpen2015",
+      "name": "Kimberley Open 2015",
+      "startDate": "2015-07-25",
+      "endDate": "2015-07-25",
+      "city": "Kimberley",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/KimberleyOpen2015"
+    },
+    {
+      "id": "TunisiaSummerOpen2015",
+      "name": "Tunisia Summer Open 2015",
+      "startDate": "2015-07-25",
+      "endDate": "2015-07-25",
+      "city": "Monastir",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaSummerOpen2015"
+    },
+    {
+      "id": "TuksWinter2015",
+      "name": "Tuks Winter 2015",
+      "startDate": "2015-06-27",
+      "endDate": "2015-06-27",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/TuksWinter2015"
+    },
+    {
+      "id": "CapeTown2015",
+      "name": "Cape Town 2015",
+      "startDate": "2015-04-19",
+      "endDate": "2015-04-19",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapeTown2015"
+    },
+    {
+      "id": "TuksOpen2015",
+      "name": "Tuks Open 2015",
+      "startDate": "2015-03-28",
+      "endDate": "2015-03-28",
+      "city": "Pretoria",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/TuksOpen2015"
+    },
+    {
+      "id": "TunisiaSpringOpen2015",
+      "name": "Tunisia Spring Open 2015",
+      "startDate": "2015-03-17",
+      "endDate": "2015-03-17",
+      "city": "Mahdia",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaSpringOpen2015"
+    },
+    {
+      "id": "PopsToysSummer2015",
+      "name": "Pops Toys Summer 2015",
+      "startDate": "2015-02-21",
+      "endDate": "2015-02-21",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/PopsToysSummer2015"
+    },
+    {
+      "id": "TunisiaOpen2014",
+      "name": "Tunisia Open 2014",
+      "startDate": "2014-12-22",
+      "endDate": "2014-12-22",
+      "city": "Mahdia",
+      "countryCode": "TN",
+      "url": "https://www.worldcubeassociation.org/competitions/TunisiaOpen2014"
+    },
+    {
+      "id": "CapeTown2014",
+      "name": "Cape Town 2014",
+      "startDate": "2014-11-30",
+      "endDate": "2014-11-30",
+      "city": "Cape Town",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/CapeTown2014"
+    },
+    {
+      "id": "Johannesburg2014",
+      "name": "Johannesburg 2014",
+      "startDate": "2014-11-23",
+      "endDate": "2014-11-23",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/Johannesburg2014"
+    },
+    {
+      "id": "SouthAfricaOpen2014",
+      "name": "South Africa Open 2014",
+      "startDate": "2014-01-11",
+      "endDate": "2014-01-11",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "url": "https://www.worldcubeassociation.org/competitions/SouthAfricaOpen2014"
+    }
+  ]
+}
