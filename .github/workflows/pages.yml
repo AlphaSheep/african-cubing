@@ -41,6 +41,11 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Add analytics
+        env:
+          ANALYTICS_TAG: ${{ vars.ANALYTICS_TAG }}
+        run: sed -i -e 's|</head>|'"$ANALYTICS_TAG"'</head>|' dist/index.html
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
