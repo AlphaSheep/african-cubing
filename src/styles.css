@@ -442,6 +442,78 @@ a {
   letter-spacing: -0.045em;
 }
 
+.regional-organization {
+  display: inline-flex;
+  max-width: 100%;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.regional-organization__logo {
+  display: grid;
+  width: 76px;
+  height: 76px;
+  flex: none;
+  overflow: hidden;
+  border: 1px solid rgba(242, 238, 228, 0.35);
+  border-radius: 5px;
+  background: #f2eee4;
+  place-items: center;
+}
+
+.regional-organization__logo[hidden] {
+  display: none;
+}
+
+.regional-organization__logo img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.regional-organization__text {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+}
+
+.regional-organization__text > span {
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.regional-organization__text strong {
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.regional-organization__arrow {
+  flex: none;
+  color: var(--interactive-green);
+  font-size: 15px;
+}
+
+.regional-organization:hover .regional-organization__text strong,
+.regional-organization:focus-visible .regional-organization__text strong {
+  color: var(--interactive-green);
+}
+
+.regional-organization:focus-visible {
+  border-radius: 5px;
+  outline: 2px solid var(--interactive-green);
+  outline-offset: 4px;
+}
+
 .clear-filter {
   flex: none;
   padding: 7px 10px;

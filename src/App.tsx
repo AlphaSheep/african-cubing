@@ -48,6 +48,12 @@ export default function App() {
     })
   }, [competitionView, data, selectedCountry])
 
+  const regionalOrganization = selectedCountry
+    ? data?.regionalOrganizations.find(
+        (organization) => organization.countryCode === selectedCountry,
+      )
+    : undefined
+
   return (
     <div className="site-shell">
       <header className="site-header">
@@ -70,6 +76,7 @@ export default function App() {
           competitions={competitions}
           view={competitionView}
           selectedCountry={selectedCountry}
+          regionalOrganization={regionalOrganization}
           loading={!data && !error}
           error={error}
           onViewChange={setCompetitionView}

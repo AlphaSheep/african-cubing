@@ -23,7 +23,7 @@ npm run preview # preview the production build
 
 ## Competition data
 
-[`scripts/generate-data.mjs`](scripts/generate-data.mjs) fetches the compact competition index from the official WCA API using its Africa continent filter. It follows pagination, validates the response, and writes a small static snapshot to [`public/data/africa.json`](public/data/africa.json).
+[`scripts/generate-data.mjs`](scripts/generate-data.mjs) fetches the compact competition index and recognized regional organizations from the official WCA API. It uses the competition API's Africa continent filter, follows pagination, validates both responses, and writes a small static snapshot to [`public/data/africa.json`](public/data/africa.json).
 
 The browser only downloads that snapshot. It does not need API credentials, a database, a server-side process, or dozens of country requests.
 

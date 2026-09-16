@@ -1,11 +1,12 @@
 import { useTranslation } from 'react-i18next'
 import { countryName, formatDateRange } from '../lib/format.ts'
-import type { Competition, CompetitionView } from '../types.ts'
+import type { Competition, CompetitionView, RegionalOrganization } from '../types.ts'
 
 interface CompetitionListProps {
   competitions: Competition[]
   view: CompetitionView
   selectedCountry: string | null
+  regionalOrganization?: RegionalOrganization
   loading: boolean
   error: boolean
   onViewChange: (view: CompetitionView) => void
@@ -16,6 +17,7 @@ export function CompetitionList({
   competitions,
   view,
   selectedCountry,
+  regionalOrganization,
   loading,
   error,
   onViewChange,
@@ -34,6 +36,34 @@ export function CompetitionList({
           <h1 id="competitions-title">
             {selectedCountry ? countryName(selectedCountry, language) : t('africa')}
           </h1>
+          {regionalOrganization && (
+            <a
+              className="regional-organization"
+              href={regionalOrganization.website}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={t('openRegionalOrganization', { name: regionalOrganization.name })}
+            >
+              {regionalOrganization.logoUrl && (
+                <span className="regional-organization__logo" aria-hidden="true">
+                  <img
+                    src={regionalOrganization.logoUrl}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                    onError={(event) => {
+                      event.currentTarget.parentElement?.setAttribute('hidden', '')
+                    }}
+                  />
+                </span>
+              )}
+              <span className="regional-organization__text">
+                <span>{t('regionalOrganization')}</span>
+                <strong dir="auto">{regionalOrganization.name}</strong>
+              </span>
+              <span className="regional-organization__arrow" aria-hidden="true">↗</span>
+            </a>
+          )}
         </div>
         <div className="competitions-header__actions">
           <div className="view-toggle" role="group" aria-label={t('competitions')}>

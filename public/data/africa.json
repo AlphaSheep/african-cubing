@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-09-11T06:42:11.766Z",
+  "generatedAt": "2026-09-16T07:54:39.945Z",
   "source": "https://www.worldcubeassociation.org/api/v0/competition_index",
-  "totalCompetitions": 250,
+  "regionalOrganizationsSource": "https://www.worldcubeassociation.org/api/v0/regional-organizations",
+  "totalCompetitions": 251,
   "countries": [
     {
       "code": "AO",
@@ -40,7 +41,7 @@
     },
     {
       "code": "KE",
-      "competitionCount": 27,
+      "competitionCount": 28,
       "upcomingCount": 0
     },
     {
@@ -107,6 +108,26 @@
       "code": "ZM",
       "competitionCount": 2,
       "upcomingCount": 0
+    }
+  ],
+  "regionalOrganizations": [
+    {
+      "name": "Cubing Kenya",
+      "website": "https://www.instagram.com/cubing.kenya?igsh=Y3Fib2s4eWg5MWph",
+      "logoUrl": "https://www.worldcubeassociation.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE2MTIyLCJwdXIiOiJibG9iX2lkIn19--333e903dc9dbe2ae313c2b5390d765b3a82cc235/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOls1MDAsMzAwXX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--1cc95b1cfe8a71e063b6749e62874c0ef65dccaa/Cubing%20Kenya%20logo.png",
+      "countryCode": "KE"
+    },
+    {
+      "name": "Cubing Nigeria",
+      "website": "https://cubingnigeria.org",
+      "logoUrl": "https://www.worldcubeassociation.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjkxLCJwdXIiOiJibG9iX2lkIn19--9e098d8ff9b98ea090b93d85a5a93fc28c9d66d0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOls1MDAsMzAwXX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--1cc95b1cfe8a71e063b6749e62874c0ef65dccaa/00_CUBING_NIGERIA.png",
+      "countryCode": "NG"
+    },
+    {
+      "name": "CubingZA",
+      "website": "https://cubingza.org",
+      "logoUrl": "https://www.worldcubeassociation.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTg3NDI0LCJwdXIiOiJibG9iX2lkIn19--97807f23ca2f7ebb480997fff0e1f5f139d0f976/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOls1MDAsMzAwXX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--1cc95b1cfe8a71e063b6749e62874c0ef65dccaa/CubingZA%202026%20Logo%20(1).png",
+      "countryCode": "ZA"
     }
   ],
   "upcomingCompetitions": [
@@ -329,15 +350,6 @@
       "url": "https://www.worldcubeassociation.org/competitions/CubestuffLeonardo2026"
     },
     {
-      "id": "AgadirOpen2026",
-      "name": "Agadir Open 2026",
-      "startDate": "2026-06-13",
-      "endDate": "2026-06-13",
-      "city": "Agadir",
-      "countryCode": "MA",
-      "url": "https://www.worldcubeassociation.org/competitions/AgadirOpen2026"
-    },
-    {
       "id": "NakuruTwistandTurn2026",
       "name": "Nakuru Twist and Turn 2026",
       "startDate": "2026-06-13",
@@ -345,6 +357,15 @@
       "city": "Nakuru",
       "countryCode": "KE",
       "url": "https://www.worldcubeassociation.org/competitions/NakuruTwistandTurn2026"
+    },
+    {
+      "id": "AgadirOpen2026",
+      "name": "Agadir Open 2026",
+      "startDate": "2026-06-13",
+      "endDate": "2026-06-13",
+      "city": "Agadir",
+      "countryCode": "MA",
+      "url": "https://www.worldcubeassociation.org/competitions/AgadirOpen2026"
     },
     {
       "id": "CaboVerdeNationals2026",
@@ -392,15 +413,6 @@
       "url": "https://www.worldcubeassociation.org/competitions/EBCOpen2026"
     },
     {
-      "id": "KingsCollegeOpen2026",
-      "name": "King's College Open 2026",
-      "startDate": "2026-04-18",
-      "endDate": "2026-04-18",
-      "city": "Onikan, Lagos",
-      "countryCode": "NG",
-      "url": "https://www.worldcubeassociation.org/competitions/KingsCollegeOpen2026"
-    },
-    {
       "id": "MauritiusNationals2026",
       "name": "Mauritius Speedcubing Nationals 2026",
       "startDate": "2026-04-18",
@@ -417,6 +429,15 @@
       "city": "Nairobi",
       "countryCode": "KE",
       "url": "https://www.worldcubeassociation.org/competitions/NairobiBigandOH2026"
+    },
+    {
+      "id": "KingsCollegeOpen2026",
+      "name": "King's College Open 2026",
+      "startDate": "2026-04-18",
+      "endDate": "2026-04-18",
+      "city": "Onikan, Lagos",
+      "countryCode": "NG",
+      "url": "https://www.worldcubeassociation.org/competitions/KingsCollegeOpen2026"
     },
     {
       "id": "CubeinLuanda2026",
@@ -570,6 +591,15 @@
       "city": "Centurion",
       "countryCode": "ZA",
       "url": "https://www.worldcubeassociation.org/competitions/CubestuffQ4Zwartkop2025"
+    },
+    {
+      "id": "NakuruSpeedcubingCamp2025",
+      "name": "Nakuru Speedcubing Camp 2025",
+      "startDate": "2025-11-29",
+      "endDate": "2025-11-29",
+      "city": "Nakuru",
+      "countryCode": "KE",
+      "url": "https://www.worldcubeassociation.org/competitions/NakuruSpeedcubingCamp2025"
     },
     {
       "id": "KenyaNationals2025",

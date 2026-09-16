@@ -8,6 +8,7 @@ function isAfricaData(value: unknown): value is AfricaData {
     typeof data.generatedAt === 'string' &&
     typeof data.totalCompetitions === 'number' &&
     Array.isArray(data.countries) &&
+    Array.isArray(data.regionalOrganizations) &&
     Array.isArray(data.upcomingCompetitions) &&
     Array.isArray(data.pastCompetitions)
   )
