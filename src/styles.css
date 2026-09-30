@@ -308,20 +308,17 @@ a {
 
 .africa-map .map-country.is-selected path,
 .africa-map .map-country.is-selected circle {
-  fill: var(--deep-green);
-  stroke: var(--interactive-green);
+  fill: var(--ink);
+  stroke: var(--ochre);
   stroke-width: 3px;
-  filter: drop-shadow(0 0 12px rgba(105, 210, 124, 0.5));
+  filter: drop-shadow(0 0 12px rgba(212, 166, 42, 0.52));
 }
 
 .africa-map .map-country.has-hosted.is-selected path,
-.africa-map .map-country.has-hosted.is-selected circle {
-  fill: var(--interactive-green);
-}
-
+.africa-map .map-country.has-hosted.is-selected circle,
 .africa-map .map-country.has-upcoming.is-selected path,
 .africa-map .map-country.has-upcoming.is-selected circle {
-  fill: var(--ochre);
+  fill: var(--ink);
 }
 
 .africa-map .map-country--marker circle {
